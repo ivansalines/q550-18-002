@@ -1,0 +1,11 @@
+{
+  "version": "v18.32",
+  "status": "AUTHENTICATED_PARENT_V18_31_ONLY_NO_NEW_Q550_RUN",
+  "parent_SHA256": "458ca4805c3f846f02e1354fc4c4644c84472eb0d0b9d66c34214a20d3580580",
+  "parent_verified_members": 67,
+  "parent_numeric_survivors": 0,
+  "parent_material_status": "NO_PHYSICAL_MATERIAL_INVARIANT_CERTIFIED",
+  "verified_source_slope": 0.1343837359721647,
+  "phase_covariant_manifold_not_equal_first_integral": true,
+  "no_new_original_integrations": true
+}

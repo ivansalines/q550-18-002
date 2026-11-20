@@ -1,0 +1,42 @@
+test_crossing (test_defect_budget_v18_34.Tests.test_crossing) ... ok
+test_exact_constant_mu_source (test_defect_budget_v18_34.Tests.test_exact_constant_mu_source) ... ok
+test_inside_radius_flags (test_defect_budget_v18_34.Tests.test_inside_radius_flags) ... ok
+test_metric_changes_angle (test_defect_budget_v18_34.Tests.test_metric_changes_angle) ... ok
+test_normal_sign_gauge (test_defect_budget_v18_34.Tests.test_normal_sign_gauge) ... ok
+test_piece_partition (test_defect_budget_v18_34.Tests.test_piece_partition) ... ok
+test_positive_negative_cancellation (test_defect_budget_v18_34.Tests.test_positive_negative_cancellation) ... ok
+test_reject_bad_grid (test_defect_budget_v18_34.Tests.test_reject_bad_grid) ... ok
+test_sign_gauge_invariance (test_defect_budget_v18_34.Tests.test_sign_gauge_invariance) ... ok
+test_time_varying_cofactor (test_defect_budget_v18_34.Tests.test_time_varying_cofactor) ... ok
+test_zero_source (test_defect_budget_v18_34.Tests.test_zero_source) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.016s
+
+OK
+{
+  "version": "v18.34",
+  "status": "AUTHENTICATED_V18_33_ENDPOINT_ONLY_NO_NEW_Q550_RUN",
+  "parent_sha256": "c139ed5ca988b3c165c33e4cd6be78c50403aaf19041a6bc79a54f4c34b6e3ff",
+  "parent_manifest_members": 77,
+  "original_v18_33_return_rows": 126,
+  "archive_endpoint_identity_max_abs": 0.0,
+  "old_certified_material_manifolds": 0,
+  "new_ODE_integrations": 0
+}
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 3.5 seed 0 final -1.5070797578515154 integral -1.5070799026835924 first exit 1 scale 0.0125
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 3.5 seed 1 final -21.288848968809468 integral -21.28884994820634 first exit 1 scale 0.0125
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 4.0 seed 0 final -25.43879636331624 integral -25.43879587659894 first exit 1 scale 0.0125
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 4.0 seed 1 final -27.651473853723342 integral -27.651473638515213 first exit 1 scale 0.0125
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 4.5 seed 0 final -28.752725487172775 integral -28.75272477122204 first exit 1 scale 0.0125
+BUDGET phasecov_d2_lam-1.00_mod+0.00 xi 4.5 seed 1 final -8.470473237785818 integral -8.470473703957062 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 seed 0 final -0.16529065695966266 integral -0.165290648103582 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 seed 1 final 5.013644287335935 integral 5.013644391246379 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 seed 0 final 13.329665319076001 integral 13.32966486549831 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 seed 1 final 5.988367836243405 integral 5.988366989370162 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 seed 0 final 13.16228383341592 integral 13.162283203514397 first exit 1 scale 0.0125
+BUDGET phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 seed 1 final 1.2397523662051466 integral 1.2397523803395807 first exit 1 scale 0.0125
+ORIGINAL_V18_34_COMPLETED 13 ODE integrations 972 sample rows
+ORIGINAL_V18_34_PLOTS_COMPLETE
+V18_34_SHA256_ENTRIES 86
+SEND_BACK /root/elab1/hysteresis/q550_kick203_transport_defect_overlap_gauge_v18_34_sendback.zip

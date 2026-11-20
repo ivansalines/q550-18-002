@@ -1,0 +1,29 @@
+{
+  "version": "v18.34",
+  "status": "ORIGINAL_Q550_TRANSPORT_DEFECT_BUDGET_OVERLAP_GAUGE_COMPLETED",
+  "original_ode_source_sha256_verified": true,
+  "parent_v18_33_sha256": "c139ed5ca988b3c165c33e4cd6be78c50403aaf19041a6bc79a54f4c34b6e3ff",
+  "parent_verified_members": 77,
+  "original_ode_integrations": 13,
+  "selected_candidates": [
+    "phasecov_d2_lam-1.00_mod+0.00",
+    "phaseblind_d2_lam-1.00_mod+0.00"
+  ],
+  "original_v18_33_candidates_reused_unchanged": true,
+  "original_v18_33_endpoints_reproduced": true,
+  "max_historical_endpoint_absolute_difference": 0.0,
+  "integrated_cofactor_residual_max_absolute_closure_error": 0.0003547364323939206,
+  "all_sample_max_absolute_quadrature_closure_error": 0.005851115489882375,
+  "overlapping_window_max_angle_replay_error_deg": 0.0,
+  "total_sample_count": 972,
+  "segment_count": 108,
+  "endpoint_count": 36,
+  "no_new_candidate_fit_or_test_leakage": true,
+  "flow_integral_is_algebraic_consistency_not_physical_invariant": true,
+  "scales_are_diagnostic_only": true,
+  "no_certified_material_metric": true,
+  "no_material_poincare_return": true,
+  "no_material_constraint_certified": true,
+  "material_domain_exit_explicitly_tracked": true,
+  "full_ode_model_pinned": true
+}

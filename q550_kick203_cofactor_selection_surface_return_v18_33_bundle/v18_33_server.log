@@ -1,0 +1,58 @@
+test_analytic_cofactor_transport (test_cofactor_return_v18_33.CofactorTests.test_analytic_cofactor_transport) ... ok
+test_clock_return_not_material (test_cofactor_return_v18_33.CofactorTests.test_clock_return_not_material) ... ok
+test_constraint_cofactor_correct (test_cofactor_return_v18_33.CofactorTests.test_constraint_cofactor_correct) ... ok
+test_duplicate_candidates_fail (test_cofactor_return_v18_33.CofactorTests.test_duplicate_candidates_fail) ... ok
+test_gauge_sign_same_normal (test_cofactor_return_v18_33.CofactorTests.test_gauge_sign_same_normal) ... ok
+test_nonfinite_training_score_fails (test_cofactor_return_v18_33.CofactorTests.test_nonfinite_training_score_fails) ... ok
+test_original_short_flow_cofactor_and_clock (test_cofactor_return_v18_33.CofactorTests.test_original_short_flow_cofactor_and_clock) ... ok
+test_orthogonal_normal_different (test_cofactor_return_v18_33.CofactorTests.test_orthogonal_normal_different) ... ok
+test_overlap_is_independent_numeric_gate (test_cofactor_return_v18_33.CofactorTests.test_overlap_is_independent_numeric_gate) ... ok
+test_projection_normalized_metric (test_cofactor_return_v18_33.CofactorTests.test_projection_normalized_metric) ... ok
+test_rank_never_consults_holdout (test_cofactor_return_v18_33.CofactorTests.test_rank_never_consults_holdout) ... ok
+test_singular_trap_no_longer_selected (test_cofactor_return_v18_33.CofactorTests.test_singular_trap_no_longer_selected) ... ok
+test_surface_failure_when_no_certified_return (test_cofactor_return_v18_33.CofactorTests.test_surface_failure_when_no_certified_return) ... ok
+test_surface_math_no_phase_only_terms (test_cofactor_return_v18_33.CofactorTests.test_surface_math_no_phase_only_terms) ... ok
+test_tie_by_dimension_and_name (test_cofactor_return_v18_33.CofactorTests.test_tie_by_dimension_and_name) ... ok
+test_wrong_phase_cycle_rejected (test_cofactor_return_v18_33.CofactorTests.test_wrong_phase_cycle_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.333s
+
+OK
+{
+  "version": "v18.33",
+  "status": "AUTHENTICATED_V18_32_ONLY_NO_NEW_Q550_RUN",
+  "parent_v18_32_SHA256": "425942b38fbe5cac8e0c30df919376474b1a3754d529860f8ddafa206ecdee7f",
+  "parent_v18_32_verified_members": 69,
+  "old_finalists": [
+    "phaseblind_d2_lam+0.00_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00",
+    "phasecov_d1_lam+0.00_mod+0.00"
+  ],
+  "corrected_training_only_finalists": [
+    "phasecov_d2_lam-1.00_mod+0.00",
+    "phaseblind_d2_lam-1.00_mod+0.00",
+    "phasecov_d2_lam+1.00_mod+0.00",
+    "phaseblind_d2_lam+1.00_mod+0.00",
+    "phasecov_d2_lam-0.50_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00"
+  ],
+  "best_training_relative_residual": 0.00033223310786474164,
+  "best_candidate": "phasecov_d2_lam-1.00_mod+0.00",
+  "all_40_original_training_scores_immutable": true,
+  "no_new_original_integrations": true,
+  "no_new_manifold_certificate": true
+}
+CANDIDATE phasecov_d2_lam-1.00_mod+0.00 train 3.3223e-04 hold 1.9737e-03 overlap 0.15828411503744813 return 8.171028623800819 pass False
+CANDIDATE phaseblind_d2_lam-1.00_mod+0.00 train 3.5270e-04 hold 2.0357e-03 overlap 0.04667393059637706 return 3.7924444276048606 pass False
+CANDIDATE phasecov_d2_lam+1.00_mod+0.00 train 4.1392e-04 hold 1.9925e-03 overlap 0.2703305102323831 return 13.373627690615928 pass False
+CANDIDATE phaseblind_d2_lam+1.00_mod+0.00 train 4.2667e-04 hold 1.9379e-03 overlap 0.04473199288290278 return 3.9615431039844733 pass False
+CANDIDATE phasecov_d2_lam-0.50_mod+0.00 train 5.8686e-04 hold 2.1196e-03 overlap 0.3147344625970164 return 7.646508815454652 pass False
+CANDIDATE phaseblind_d2_lam-0.50_mod+0.00 train 6.1948e-04 hold 1.9953e-03 overlap 0.08868961827650305 return 3.5127282300072564 pass False
+CANDIDATE phasecov_d2_lam+0.00_mod+0.00 train 1.0000e+00 hold 1.0000e+00 overlap 0.4171766981211941 return 3.493695027062665 pass False
+ORIGINAL_V18_33_COMPLETED 43 ODE integrations 7 finalists 0 numeric passes
+V18_33_ORIGINAL_PLOTS_COMPLETED
+V18_33_SHA256_ENTRIES 77
+SEND_BACK /root/elab1/hysteresis/q550_kick203_cofactor_selection_surface_return_v18_33_sendback.zip

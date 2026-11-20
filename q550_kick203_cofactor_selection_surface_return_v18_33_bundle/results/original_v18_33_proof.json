@@ -1,0 +1,542 @@
+{
+  "version": "v18.33",
+  "status": "ORIGINAL_Q550_COFACTOR_SELECTION_REPAIR_SURFACE_RETURN_COMPLETED",
+  "parent_v18_32_sha256": "425942b38fbe5cac8e0c30df919376474b1a3754d529860f8ddafa206ecdee7f",
+  "parent_v18_32_manifest_members": 69,
+  "original_ODE_source_SHA256_verified": true,
+  "original_ode_integrations": 43,
+  "failed_short_flow_attempts": 0,
+  "train_states": 392,
+  "holdout_states": 224,
+  "candidate_grid_count": 40,
+  "selection_policy": "TRAINING_NORMALIZED_LIE_COFACTOR_RESIDUAL_ONLY",
+  "no_holdout_in_selection": true,
+  "legacy_v18_32_finalists": [
+    "phaseblind_d2_lam+0.00_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00",
+    "phasecov_d1_lam+0.00_mod+0.00"
+  ],
+  "repaired_finalists": [
+    "phasecov_d2_lam-1.00_mod+0.00",
+    "phaseblind_d2_lam-1.00_mod+0.00",
+    "phasecov_d2_lam+1.00_mod+0.00",
+    "phaseblind_d2_lam+1.00_mod+0.00",
+    "phasecov_d2_lam-0.50_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00"
+  ],
+  "overlooked_phasecov_candidate_included": true,
+  "candidates_numerically_screened": 7,
+  "numerically_passing": 0,
+  "candidate_diagnostics": [
+    {
+      "id": "phasecov_d2_lam-1.00_mod+0.00",
+      "opts": {
+        "phase": true,
+        "degree": 2,
+        "lam": -1.0,
+        "mod": 0.0
+      },
+      "training_score": 0.00033223310786474164,
+      "historical_singular_objective": 9.887166842855503e-10,
+      "holdout": {
+        "residual_rms": 0.0069491975764054414,
+        "relative_residual": 0.0019737195876806625,
+        "field_lie_rms": 3.5208636625892296,
+        "field_candidate_rms": 3.5189536882158423,
+        "candidate_std": 3.5188624114497618,
+        "max_abs_residual": 0.04899106129825892
+      },
+      "anchor_relative": 5.204034633474413e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.0015020502304104659
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0016945086127197924
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.0031240770224834112
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.002046875865803077
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.0026331846292019195
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.0012790764295669472
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.0016955042447416048
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.0015496391619307208
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.0013712008133727129
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0011694484349820823,
+      "local_window_overlap_max_normal_angle_degrees": 0.15828411503744813,
+      "local_window_overlap_max_level_offset_scaled": 3.8120203546518978e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 28.752725487172775,
+      "finite_time_cofactor_return_max_relative": 8.171028623800819,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phaseblind_d2_lam-1.00_mod+0.00",
+      "opts": {
+        "phase": false,
+        "degree": 2,
+        "lam": -1.0,
+        "mod": 0.0
+      },
+      "training_score": 0.00035270188457405953,
+      "historical_singular_objective": 1.1220633358818453e-09,
+      "holdout": {
+        "residual_rms": 0.007159611299744782,
+        "relative_residual": 0.002035734249965425,
+        "field_lie_rms": 3.516967551077151,
+        "field_candidate_rms": 3.514864267298351,
+        "candidate_std": 3.5147951600953125,
+        "max_abs_residual": 0.050892628316473676
+      },
+      "anchor_relative": 4.513113073707574e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.0015484107300499145
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0017477722911439337
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.003256185905181383
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.0021253484084582685
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.0027426179919236367
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.001422887796050493
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.0016571313973517536
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.0012806712660273177
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.0014496593427194382
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0013848903590485268,
+      "local_window_overlap_max_normal_angle_degrees": 0.04667393059637706,
+      "local_window_overlap_max_level_offset_scaled": 5.380813787739123e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 13.329665319076001,
+      "finite_time_cofactor_return_max_relative": 3.7924444276048606,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phasecov_d2_lam+1.00_mod+0.00",
+      "opts": {
+        "phase": true,
+        "degree": 2,
+        "lam": 1.0,
+        "mod": 0.0
+      },
+      "training_score": 0.00041392415215701233,
+      "historical_singular_objective": 1.2410957352647358e-09,
+      "holdout": {
+        "residual_rms": 0.007052678212491083,
+        "relative_residual": 0.0019925031614213932,
+        "field_lie_rms": 3.5396070375416167,
+        "field_candidate_rms": 3.5379294731131834,
+        "candidate_std": 3.5378520071455326,
+        "max_abs_residual": 0.04171291409578792
+      },
+      "anchor_relative": 2.5127277233936547e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.001485897221950486
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0027828899067978224
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.0014575790091122854
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.002193270311609024
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.001976611996564828
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.0014603551960870999
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.002056399083410577
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.0018440457441998728
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.0023658893502177983
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0019248383509095927,
+      "local_window_overlap_max_normal_angle_degrees": 0.2703305102323831,
+      "local_window_overlap_max_level_offset_scaled": 4.8660593686362216e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 47.31391556806263,
+      "finite_time_cofactor_return_max_relative": 13.373627690615928,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phaseblind_d2_lam+1.00_mod+0.00",
+      "opts": {
+        "phase": false,
+        "degree": 2,
+        "lam": 1.0,
+        "mod": 0.0
+      },
+      "training_score": 0.0004266689420988286,
+      "historical_singular_objective": 1.3563105034356012e-09,
+      "holdout": {
+        "residual_rms": 0.006861994189723718,
+        "relative_residual": 0.001937865204773308,
+        "field_lie_rms": 3.541006966233462,
+        "field_candidate_rms": 3.5394873014375077,
+        "candidate_std": 3.5393841242752107,
+        "max_abs_residual": 0.04160980015056204
+      },
+      "anchor_relative": 3.0703734505760225e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.0014834171370483684
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0027292875648862267
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.0016021923157959947
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.0021974453321334133
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.0018565483329547462
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.0013985377659270464
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.0018860329904744624
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.0018537782442539852
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.0021387509894733696
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0017168556374523298,
+      "local_window_overlap_max_normal_angle_degrees": 0.04473199288290278,
+      "local_window_overlap_max_level_offset_scaled": 3.654524138279388e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 14.021422769874585,
+      "finite_time_cofactor_return_max_relative": 3.9615431039844733,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phasecov_d2_lam-0.50_mod+0.00",
+      "opts": {
+        "phase": true,
+        "degree": 2,
+        "lam": -0.5,
+        "mod": 0.0
+      },
+      "training_score": 0.0005868642661026847,
+      "historical_singular_objective": 8.787278468272255e-10,
+      "holdout": {
+        "residual_rms": 0.0037233770409759726,
+        "relative_residual": 0.0021196382141891045,
+        "field_lie_rms": 1.756609696905469,
+        "field_candidate_rms": 3.51151691607819,
+        "candidate_std": 3.5114429030094434,
+        "max_abs_residual": 0.027100945973488333
+      },
+      "anchor_relative": 1.7497715547041894e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.0018053129946004323
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0018891388549471678
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.003535439350704478
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.0016807458671591032
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.0029567081212856262
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.001497117865919564
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.0017301256093390051
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.001882956329944827
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.0015894187535554617
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0013131232213615671,
+      "local_window_overlap_max_normal_angle_degrees": 0.3147344625970164,
+      "local_window_overlap_max_level_offset_scaled": 8.866949401359058e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 26.850279112827383,
+      "finite_time_cofactor_return_max_relative": 7.646508815454652,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phaseblind_d2_lam-0.50_mod+0.00",
+      "opts": {
+        "phase": false,
+        "degree": 2,
+        "lam": -0.5,
+        "mod": 0.0
+      },
+      "training_score": 0.0006194840641472355,
+      "historical_singular_objective": 9.854590447804741e-10,
+      "holdout": {
+        "residual_rms": 0.003501687012883689,
+        "relative_residual": 0.001995332917403794,
+        "field_lie_rms": 1.7549387284403004,
+        "field_candidate_rms": 3.5083023852896678,
+        "candidate_std": 3.5082193687594474,
+        "max_abs_residual": 0.02411752681667867
+      },
+      "anchor_relative": 1.1767623714330476e-06,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 0.0015665621147493898
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 0.0017564205351668128
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 0.003221300296077102
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 0.0016239131223904568
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 0.002972265803278269
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 0.0017603331939503785
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 0.0015362094748174373
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 0.001244195683360184
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 0.001556406736211865
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 0.0016578102372152798,
+      "local_window_overlap_max_normal_angle_degrees": 0.08868961827650305,
+      "local_window_overlap_max_level_offset_scaled": 3.324612181417959e-06,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 12.323421213699548,
+      "finite_time_cofactor_return_max_relative": 3.5127282300072564,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    },
+    {
+      "id": "phasecov_d2_lam+0.00_mod+0.00",
+      "opts": {
+        "phase": true,
+        "degree": 2,
+        "lam": 0.0,
+        "mod": 0.0
+      },
+      "training_score": 1.0,
+      "historical_singular_objective": 9.551619410216498e-12,
+      "holdout": {
+        "residual_rms": 0.00016194698515853352,
+        "relative_residual": 1.0,
+        "field_lie_rms": 0.00016194698515853352,
+        "field_candidate_rms": 3.4937196576270826,
+        "candidate_std": 3.4866498988357515,
+        "max_abs_residual": 0.0013642572314485255
+      },
+      "anchor_relative": 2.7261041403215114e-08,
+      "cross_posture": [
+        {
+          "xi": 3.25,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 3.5,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 3.75,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 4.0,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 4.25,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 4.5,
+          "relative_residual": 1.0
+        },
+        {
+          "xi": 4.75,
+          "relative_residual": 1.0
+        }
+      ],
+      "phase_shift_holdout": [
+        {
+          "delta_theta": -0.6,
+          "relative_residual": 1.0
+        },
+        {
+          "delta_theta": 0.6,
+          "relative_residual": 1.0
+        }
+      ],
+      "projected_test_points": 28,
+      "projected_rejected": 0,
+      "on_surface_relative_tangency": 2.036365972392237,
+      "local_window_overlap_max_normal_angle_degrees": 0.4171766981211941,
+      "local_window_overlap_max_level_offset_scaled": 3.1975215891628735e-07,
+      "short_original_integrations_succeeded": 6,
+      "finite_time_cofactor_return_max_absolute": 12.18129141267101,
+      "finite_time_cofactor_return_max_relative": 3.493695027062665,
+      "numerical_local_screen_passed": false,
+      "clock_cycle_is_not_material_return": true,
+      "status": "REJECTED_OR_UNRESOLVED"
+    }
+  ],
+  "posture_window_local_models_train_only": true,
+  "validation_holdout_excluded_from_fitting": true,
+  "local_window_models_train_only": true,
+  "overlapping_window_comparison_not_material_transport_certificate": true,
+  "xi_1_phase_clock_cycle_is_not_material_recurrence": true,
+  "numerical_normal_metric_is_diagnostic_only": true,
+  "no_physically_derived_constraint": true,
+  "no_physical_material_manifold_certified": true,
+  "no_global_surface_return_nor_rigorous_interval_certificate": true,
+  "off_constraint_probes_only": true,
+  "all_models_use_pinned_original_Q550": true
+}

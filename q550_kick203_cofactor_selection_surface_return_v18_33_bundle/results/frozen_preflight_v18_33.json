@@ -1,0 +1,26 @@
+{
+  "version": "v18.33",
+  "status": "AUTHENTICATED_V18_32_ONLY_NO_NEW_Q550_RUN",
+  "parent_v18_32_SHA256": "425942b38fbe5cac8e0c30df919376474b1a3754d529860f8ddafa206ecdee7f",
+  "parent_v18_32_verified_members": 69,
+  "old_finalists": [
+    "phaseblind_d2_lam+0.00_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00",
+    "phasecov_d1_lam+0.00_mod+0.00"
+  ],
+  "corrected_training_only_finalists": [
+    "phasecov_d2_lam-1.00_mod+0.00",
+    "phaseblind_d2_lam-1.00_mod+0.00",
+    "phasecov_d2_lam+1.00_mod+0.00",
+    "phaseblind_d2_lam+1.00_mod+0.00",
+    "phasecov_d2_lam-0.50_mod+0.00",
+    "phaseblind_d2_lam-0.50_mod+0.00",
+    "phasecov_d2_lam+0.00_mod+0.00"
+  ],
+  "best_training_relative_residual": 0.00033223310786474164,
+  "best_candidate": "phasecov_d2_lam-1.00_mod+0.00",
+  "all_40_original_training_scores_immutable": true,
+  "no_new_original_integrations": true,
+  "no_new_manifold_certificate": true
+}

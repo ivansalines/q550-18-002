@@ -1,0 +1,12 @@
+{
+  "version": "v18.35",
+  "status": "AUTHENTICATED_PARENT_ONLY_NO_NEW_Q550_INTEGRATION",
+  "parent_sha256": "4f58a53b72c90e04f4fb978329c5d3ecec770a0b12c75a0d9a6c791b8c6e45fa",
+  "parent_member_count": 86,
+  "original_v18_34_sample_rows": 972,
+  "initial_seed_count": 12,
+  "source_at_zero_is_not_identically_zero": true,
+  "microgrid_count": 171,
+  "no_new_original_ODE_run": true,
+  "no_physical_invariant": true
+}

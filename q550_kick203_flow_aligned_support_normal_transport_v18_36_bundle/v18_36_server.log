@@ -1,0 +1,42 @@
+test_budget (test_flow_normal_v18_36.TestMath.test_budget) ... ok
+test_dual_pairing (test_flow_normal_v18_36.TestMath.test_dual_pairing) ... ok
+test_exact_invariant_synthetic_normal (test_flow_normal_v18_36.TestMath.test_exact_invariant_synthetic_normal) ... ok
+test_initial_outside (test_flow_normal_v18_36.TestMath.test_initial_outside) ... ok
+test_later_exit (test_flow_normal_v18_36.TestMath.test_later_exit) ... ok
+test_no_exit (test_flow_normal_v18_36.TestMath.test_no_exit) ... ok
+test_nontrivial_candidate_mismatch (test_flow_normal_v18_36.TestMath.test_nontrivial_candidate_mismatch) ... ok
+test_orthogonal_normal_gauge (test_flow_normal_v18_36.TestMath.test_orthogonal_normal_gauge) ... ok
+test_projection_inside_training_support (test_flow_normal_v18_36.TestMath.test_projection_inside_training_support) ... ok
+test_scale_invariance (test_flow_normal_v18_36.TestMath.test_scale_invariance) ... ok
+test_scaled_jac (test_flow_normal_v18_36.TestMath.test_scaled_jac) ... ok
+test_tangent (test_flow_normal_v18_36.TestMath.test_tangent) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.645s
+
+OK
+{
+  "version": "v18.36",
+  "status": "PREFLIGHT_AUTHENTICATED_NO_NEW_Q550_RUN",
+  "parent_sha256": "1740e3404a12ba3ce5f2aeab1737fc32ef9488882b462ffe1d53d5ad681225ee",
+  "parent_verified_members": 87,
+  "parent_inside_joint_support": 4,
+  "parent_case_count": 12,
+  "no_new_original_ODE": true,
+  "no_material_manifold_certified": true
+}
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 3.5 branch 0 exit CROSSED_AFTER_START 1.2343735228856012e-06 initial_source -9.8754e-05 angle_final 0
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 3.5 branch 1 exit CROSSED_AFTER_START 1.6492309763478105e-06 initial_source 8.3931e-05 angle_final 3.7215e-06
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 4.0 branch 0 exit CROSSED_AFTER_START 3.307503220825727e-06 initial_source -5.5907e-05 angle_final 1.4788e-06
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 4.0 branch 1 exit CROSSED_AFTER_START 1.3198947524249472e-06 initial_source 0.00016158 angle_final 4.5177e-06
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 4.5 branch 0 exit CROSSED_AFTER_START 9.000011693462881e-07 initial_source -3.9666e-06 angle_final 1.2074e-06
+FLOW_NORMAL phasecov_d2_lam-1.00_mod+0.00 xi 4.5 branch 1 exit CROSSED_AFTER_START 9.13619192695705e-07 initial_source 0.00010204 angle_final 8.5377e-07
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 branch 0 exit CROSSED_AFTER_START 2.407635871861053e-06 initial_source -3.1513e-05 angle_final 1.2074e-06
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 3.5 branch 1 exit CROSSED_AFTER_START 1.026687513321545e-06 initial_source 5.8698e-05 angle_final 0
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 branch 0 exit CROSSED_AFTER_START 2.825963092797085e-06 initial_source 0.00014037 angle_final 1.4788e-06
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 4.0 branch 1 exit CROSSED_AFTER_START 4.444596219790246e-06 initial_source -0.00010518 angle_final 0
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 branch 0 exit CROSSED_AFTER_START 1.1449406488854257e-06 initial_source -5.7573e-06 angle_final 1.2074e-06
+FLOW_NORMAL phaseblind_d2_lam-1.00_mod+0.00 xi 4.5 branch 1 exit CROSSED_AFTER_START 2.9670273146353335e-06 initial_source -0.00012844 angle_final 1.9091e-06
+ORIGINAL_V18_36_COMPLETED 13 12 1740
+V18_36_SHA256_ENTRIES 99
+SEND_BACK /root/elab1/hysteresis/q550_kick203_flow_aligned_support_normal_transport_v18_36_sendback.zip

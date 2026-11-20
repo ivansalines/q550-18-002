@@ -1,0 +1,52 @@
+{
+  "version": "v18.35",
+  "status": "ORIGINAL_Q550_NEAR_SURFACE_MOVING_FRAME_AND_DEFECT_BUDGET_COMPLETED",
+  "original_ode_input_sha256_verified": true,
+  "parent_v18_34_sha256": "4f58a53b72c90e04f4fb978329c5d3ecec770a0b12c75a0d9a6c791b8c6e45fa",
+  "parent_v18_34_verified_members": 86,
+  "original_ode_integrations": 15,
+  "case_count": 12,
+  "micro_sample_count": 2052,
+  "first_exit_diagnostics": 120,
+  "micro_horizon_xi": 0.0125,
+  "max_historical_replay_C_absolute_error": 2.2915035754328406e-13,
+  "max_original_integrated_budget_identity_error": 2.562628928504118e-13,
+  "tighter_comparison": [
+    {
+      "id": "phasecov_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 3.5,
+      "seed_index": 0,
+      "material_state_difference_L2": 2.6026507265932735e-12,
+      "accumulated_source_difference": 2.6731058772738736e-14,
+      "endpoint_C_difference": 1.6696828923808138e-12
+    },
+    {
+      "id": "phasecov_d2_lam-1.00_mod+0.00",
+      "anchor_xi": 3.5,
+      "seed_index": 1,
+      "material_state_difference_L2": 2.489574863113522e-12,
+      "accumulated_source_difference": 1.1781656379661332e-13,
+      "endpoint_C_difference": 4.869700562931678e-13
+    }
+  ],
+  "frozen_candidate_surfaces": true,
+  "calibration_uses_training_only": true,
+  "original_v18_34_seed_reproduction": true,
+  "measured_fixed_anchor_and_comoving_reference": true,
+  "calibrated_region_is_diagnostic_not_certified_physical": true,
+  "moving_reference_has_seed_phase_alignment": true,
+  "joint_training_region_requires_material_ball_and_phase_band": true,
+  "if_outside_at_start_no_exit_claim": true,
+  "no_physical_invariant_manifold_certified": true,
+  "no_material_metric_certified": true,
+  "no_material_return_certified": true,
+  "methods": {
+    "solver": "DOP853",
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 0.000125,
+    "time_grid_count": 171,
+    "cofactor": "constant -1",
+    "integrated_defect": "augmented initial-value quadrature"
+  }
+}

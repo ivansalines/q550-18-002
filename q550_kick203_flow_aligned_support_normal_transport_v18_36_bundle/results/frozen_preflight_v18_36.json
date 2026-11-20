@@ -1,0 +1,10 @@
+{
+  "version": "v18.36",
+  "status": "PREFLIGHT_AUTHENTICATED_NO_NEW_Q550_RUN",
+  "parent_sha256": "1740e3404a12ba3ce5f2aeab1737fc32ef9488882b462ffe1d53d5ad681225ee",
+  "parent_verified_members": 87,
+  "parent_inside_joint_support": 4,
+  "parent_case_count": 12,
+  "no_new_original_ODE": true,
+  "no_material_manifold_certified": true
+}

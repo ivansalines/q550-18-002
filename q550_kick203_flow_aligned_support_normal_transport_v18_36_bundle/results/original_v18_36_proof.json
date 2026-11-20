@@ -1,0 +1,31 @@
+{
+  "version": "v18.36",
+  "status": "ORIGINAL_Q550_FLOW_ALIGNED_SUPPORT_NORMAL_TRANSPORT_COMPLETED",
+  "original_ode_sha256_verified": true,
+  "parent_v18_35_sha256": "1740e3404a12ba3ce5f2aeab1737fc32ef9488882b462ffe1d53d5ad681225ee",
+  "parent_v18_35_verified_members": 87,
+  "original_integrations": 13,
+  "case_count": 12,
+  "profile_rows": 1740,
+  "all_seeds_jointly_admissible": true,
+  "includes_original_jacobian_cotangent_transport": true,
+  "checks_transport_against_frozen_candidate_gradient": true,
+  "no_physical_material_manifold_certified": true,
+  "no_privileged_metric_certified": true,
+  "no_return_certified": true,
+  "max_budget_closure_error": 1.1860484670894187e-13,
+  "max_dual_pairing_error": 2.046126668705378e-16,
+  "method": {
+    "T": 1e-05,
+    "rtol": 3e-12,
+    "atol": 3e-13,
+    "max_step": 2.5e-07,
+    "time_count": 145,
+    "normal_transport": "m_prime=-B^T m",
+    "tangent_transport": "u_prime=B u",
+    "B": "S^-1 J_material S",
+    "normal_gauge": "weighted Euclidean diagnostic",
+    "calibration_only_training_samples": true,
+    "seed_generator": "fixed RNG 1836 independent rejection prior to future simulation"
+  }
+}

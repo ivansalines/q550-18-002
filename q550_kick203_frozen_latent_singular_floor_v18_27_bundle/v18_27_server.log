@@ -1,0 +1,66 @@
+test_amplitudes_strictly_descend (test_subspace_v18_27.TestSubspace.test_amplitudes_strictly_descend) ... ok
+test_even_odd_synthetic (test_subspace_v18_27.TestSubspace.test_even_odd_synthetic) ... ok
+test_parent_cross_references (test_subspace_v18_27.TestSubspace.test_parent_cross_references) ... ok
+test_parent_original_verified (test_subspace_v18_27.TestSubspace.test_parent_original_verified) ... ok
+test_parent_samples_not_same_splits (test_subspace_v18_27.TestSubspace.test_parent_samples_not_same_splits) ... ok
+test_rotation_prediction_gauge (test_subspace_v18_27.TestSubspace.test_rotation_prediction_gauge) ... ok
+test_sensor_sigma_scaling (test_subspace_v18_27.TestSubspace.test_sensor_sigma_scaling) ... ok
+test_shifted_subspace (test_subspace_v18_27.TestSubspace.test_shifted_subspace) ... ok
+test_subspace_gauge (test_subspace_v18_27.TestSubspace.test_subspace_gauge) ... ok
+test_training_only_svd (test_subspace_v18_27.TestSubspace.test_training_only_svd) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.485s
+
+OK
+v18.27 cached genuine-data audit: 45 spectra, 90 projectors, 270 predictions
+parent reproduction max 0.0 gauge max 2.23487894857044e-13
+FLOOR material3 anchor 3.5 eps 1e-05 even_tight 1.071e-07 intertier 6.091e-08
+FLOOR material3 anchor 3.5 eps 3e-06 even_tight 1.661e-07 intertier 1.259e-07
+FLOOR material3 anchor 3.5 eps 1e-06 even_tight 9.246e-07 intertier 1.183e-06
+FLOOR material3 anchor 3.5 eps 3e-07 even_tight 3.216e-06 intertier 2.293e-06
+FLOOR material3 anchor 3.5 eps 1e-07 even_tight 8.220e-06 intertier 9.891e-06
+FLOOR material3 anchor 4.0 eps 1e-05 even_tight 1.672e-07 intertier 1.245e-07
+FLOOR material3 anchor 4.0 eps 3e-06 even_tight 2.113e-07 intertier 1.945e-07
+FLOOR material3 anchor 4.0 eps 1e-06 even_tight 7.319e-07 intertier 8.875e-07
+FLOOR material3 anchor 4.0 eps 3e-07 even_tight 2.258e-06 intertier 2.928e-06
+FLOOR material3 anchor 4.0 eps 1e-07 even_tight 5.728e-06 intertier 1.083e-05
+FLOOR material3 anchor 4.5 eps 1e-05 even_tight 1.745e-07 intertier 6.139e-08
+FLOOR material3 anchor 4.5 eps 3e-06 even_tight 3.000e-07 intertier 2.888e-07
+FLOOR material3 anchor 4.5 eps 1e-06 even_tight 7.790e-07 intertier 8.598e-07
+FLOOR material3 anchor 4.5 eps 3e-07 even_tight 3.147e-06 intertier 3.647e-06
+FLOOR material3 anchor 4.5 eps 1e-07 even_tight 8.295e-06 intertier 1.165e-05
+FLOOR raw4 anchor 3.5 eps 1e-05 even_tight 1.273e-07 intertier 5.775e-08
+FLOOR raw4 anchor 3.5 eps 3e-06 even_tight 2.473e-07 intertier 2.427e-07
+FLOOR raw4 anchor 3.5 eps 1e-06 even_tight 4.519e-07 intertier 3.559e-07
+FLOOR raw4 anchor 3.5 eps 3e-07 even_tight 2.935e-06 intertier 2.826e-06
+FLOOR raw4 anchor 3.5 eps 1e-07 even_tight 5.730e-06 intertier 7.507e-06
+FLOOR raw4 anchor 4.0 eps 1e-05 even_tight 1.051e-07 intertier 3.666e-08
+FLOOR raw4 anchor 4.0 eps 3e-06 even_tight 1.794e-07 intertier 2.216e-07
+FLOOR raw4 anchor 4.0 eps 1e-06 even_tight 5.951e-07 intertier 8.198e-07
+FLOOR raw4 anchor 4.0 eps 3e-07 even_tight 2.012e-06 intertier 1.857e-06
+FLOOR raw4 anchor 4.0 eps 1e-07 even_tight 6.016e-06 intertier 6.227e-06
+FLOOR raw4 anchor 4.5 eps 1e-05 even_tight 1.012e-07 intertier 6.411e-08
+FLOOR raw4 anchor 4.5 eps 3e-06 even_tight 1.535e-07 intertier 1.544e-07
+FLOOR raw4 anchor 4.5 eps 1e-06 even_tight 7.368e-07 intertier 7.118e-07
+FLOOR raw4 anchor 4.5 eps 3e-07 even_tight 3.269e-06 intertier 2.536e-06
+FLOOR raw4 anchor 4.5 eps 1e-07 even_tight 8.431e-06 intertier 5.616e-06
+FLOOR raw6 anchor 3.5 eps 1e-05 even_tight 4.121e-07 intertier 4.965e-08
+FLOOR raw6 anchor 3.5 eps 3e-06 even_tight 1.825e-07 intertier 1.276e-07
+FLOOR raw6 anchor 3.5 eps 1e-06 even_tight 3.320e-07 intertier 2.626e-07
+FLOOR raw6 anchor 3.5 eps 3e-07 even_tight 1.072e-06 intertier 1.503e-06
+FLOOR raw6 anchor 3.5 eps 1e-07 even_tight 4.471e-06 intertier 5.737e-06
+FLOOR raw6 anchor 4.0 eps 1e-05 even_tight 1.918e-07 intertier 3.423e-08
+FLOOR raw6 anchor 4.0 eps 3e-06 even_tight 1.714e-07 intertier 2.210e-07
+FLOOR raw6 anchor 4.0 eps 1e-06 even_tight 4.664e-07 intertier 6.525e-07
+FLOOR raw6 anchor 4.0 eps 3e-07 even_tight 1.643e-06 intertier 1.516e-06
+FLOOR raw6 anchor 4.0 eps 1e-07 even_tight 4.788e-06 intertier 4.930e-06
+FLOOR raw6 anchor 4.5 eps 1e-05 even_tight 4.690e-07 intertier 4.660e-08
+FLOOR raw6 anchor 4.5 eps 3e-06 even_tight 2.115e-07 intertier 1.541e-07
+FLOOR raw6 anchor 4.5 eps 1e-06 even_tight 6.835e-07 intertier 6.771e-07
+FLOOR raw6 anchor 4.5 eps 3e-07 even_tight 2.303e-06 intertier 1.431e-06
+FLOOR raw6 anchor 4.5 eps 1e-07 even_tight 6.445e-06 intertier 5.677e-06
+ORIGINAL_V18_27_FLOOR_COMPLETED 45 rows 272 short ODE integrations
+v18.27 PLOTS OK
+v18.27 immutable SHA256 entries: 51
+SEND_BACK /root/elab1/hysteresis/q550_kick203_frozen_latent_singular_floor_v18_27_sendback.zip

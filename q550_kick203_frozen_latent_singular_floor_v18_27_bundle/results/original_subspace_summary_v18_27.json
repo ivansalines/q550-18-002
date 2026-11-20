@@ -1,0 +1,36 @@
+{
+  "version": "v18.27",
+  "status": "AUTHENTICATED_V18_26_REDUCED_DATA_SINGULAR_ANALYSIS_COMPLETED",
+  "parent": {
+    "parent_sha256": "876d199cc4be8684cc6334c5a749f75387c1438ea4a239b9d91496ba8a1c62d5",
+    "verified_parent_files": 70,
+    "proof_status": "ORIGINAL_Q550_NONLINEAR_VANISHING_AMPLITUDE_SCAN_COMPLETED",
+    "parent_integrations": 1596
+  },
+  "amplitudes": [
+    1e-05,
+    3e-06,
+    1e-06,
+    3e-07,
+    1e-07
+  ],
+  "spectrum_rows": 45,
+  "subspace_rows": 90,
+  "model_replication_rows": 270,
+  "gauge_rows": 45,
+  "floor_proxy_rows": 45,
+  "max_parent_prediction_reproduction_difference": 0.0,
+  "max_exact_latent_gauge_prediction_defect": 2.23487894857044e-13,
+  "training_samples_per_frame": 96,
+  "test_samples_per_posture": 37,
+  "information_boundary": "SVD fit from reduced past TRAIN histories only; future labels used for predictive regression. No future TEST data in any fit.",
+  "not_yet_completed": "HIGH_PRECISION_ORIGINAL_ODE_FLOOR_CONTROL",
+  "caveats": [
+    "Rank 20 is an embedding dimension, not a physical degree-of-freedom count.",
+    "Small singular tails may be numerical, finite-amplitude nonlinear effects, or noisy directions.",
+    "Principal angles depend on the standardization gauge of histories: report scale drift.",
+    "Principal-vector rotations within a degenerate cluster do not imply physical torsion.",
+    "Raw epsilon*even response is a floor PROXY, not an actual error bound.",
+    "Local off-constraint diagnostic; no privileged material metric or constitutive memory."
+  ]
+}

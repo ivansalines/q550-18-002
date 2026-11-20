@@ -1,0 +1,43 @@
+{
+  "version": "v18.27",
+  "status": "ORIGINAL_Q550_HIGH_PRECISION_NUMERICAL_FLOOR_SCAN_COMPLETED",
+  "parent_server_sha256": "876d199cc4be8684cc6334c5a749f75387c1438ea4a239b9d91496ba8a1c62d5",
+  "authenticated_original_rhs": true,
+  "tiers": [
+    {
+      "name": "reference",
+      "rtol": 5e-11,
+      "atol": 6e-12,
+      "max_step": 0.04
+    },
+    {
+      "name": "tight",
+      "rtol": 3e-13,
+      "atol": 3e-14,
+      "max_step": 0.01
+    }
+  ],
+  "new_original_ode_integrations": 272,
+  "rows": 45,
+  "observers": [
+    "material3",
+    "raw4",
+    "raw6"
+  ],
+  "amplitudes": [
+    1e-05,
+    3e-06,
+    1e-06,
+    3e-07,
+    1e-07
+  ],
+  "anchors": [
+    3.5,
+    4.0,
+    4.5
+  ],
+  "baseline_reintegrated_for_each_tier": true,
+  "inter_tier_disagreement_not_a_mathematical_error_bound": true,
+  "same_phase_in_pair": true,
+  "not_a_certification_of_constitutive_hysteresis": true
+}

@@ -1,0 +1,15 @@
+{
+  "version": "v18.31",
+  "parent_file": "inputs/v18_30_original_server_sendback.zip",
+  "parent_sha256": "462c45a0f807ec08c25a1cf6ab25a2d01146b6e5a64caab59b8c70940e8ab0e8",
+  "python_preferred": "python3.13",
+  "dependencies": [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib"
+  ],
+  "original_ode": "SHA256-pinned original Q550 source",
+  "status": "PREFLIGHT_ONLY_UNTIL_ORIGINAL_SERVER",
+  "constraint_policy": "numerical discovery is not a physical certificate"
+}

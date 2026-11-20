@@ -1,0 +1,34 @@
+test_constant_is_excluded (test_material_invariant_v18_31.MathTests.test_constant_is_excluded) ... ok
+test_curved_first_integral_constraint (test_material_invariant_v18_31.MathTests.test_curved_first_integral_constraint) ... ok
+test_finite_anchored_derivative (test_material_invariant_v18_31.MathTests.test_finite_anchored_derivative) ... ok
+test_hessian_derivative (test_material_invariant_v18_31.MathTests.test_hessian_derivative) ... ok
+test_hessian_second_order_geometric_jet (test_material_invariant_v18_31.MathTests.test_hessian_second_order_geometric_jet) ... ok
+test_known_linear_first_integral (test_material_invariant_v18_31.MathTests.test_known_linear_first_integral) ... ok
+test_linear_derivative (test_material_invariant_v18_31.MathTests.test_linear_derivative) ... ok
+test_quadratic_derivative (test_material_invariant_v18_31.MathTests.test_quadratic_derivative) ... ok
+test_reject_generic_vector_field (test_material_invariant_v18_31.MathTests.test_reject_generic_vector_field) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.179s
+
+OK
+{
+  "version": "v18.31",
+  "status": "AUTHENTICATED_V18_30_ONLY_NO_NEW_Q550_RUN",
+  "parent_SHA256": "462c45a0f807ec08c25a1cf6ab25a2d01146b6e5a64caab59b8c70940e8ab0e8",
+  "parent_verified_members": 60,
+  "source_model_parent_status": "ORIGINAL_Q550_INDEPENDENT_RHS_HESSIAN_DIAGNOSTIC_COMPLETED",
+  "material_invariant_status": "NOT_DISCOVERED_IN_PREFLIGHT",
+  "no_new_original_integrations": true
+}
+Traceback (most recent call last):
+  File "/root/elab1/hysteresis/q550_kick203_material_invariant_constraint_curvature_v18_31_bundle/scripts/original_material_invariants_v18_31.py", line 187, in <module>
+    args=p.parse_args();run(args)
+                        ~~~^^^^^^
+  File "/root/elab1/hysteresis/q550_kick203_material_invariant_constraint_curvature_v18_31_bundle/scripts/original_material_invariants_v18_31.py", line 83, in run
+    f,jac=model(args.base_root,d)
+          ~~~~~^^^^^^^^^^^^^^^^^^
+  File "/root/elab1/hysteresis/q550_kick203_material_invariant_constraint_curvature_v18_31_bundle/scripts/original_material_invariants_v18_31.py", line 39, in model
+    k0=(55./6.)*(10./550.);slope=float(d['slope'])
+                                       ~^^^^^^^^^
+KeyError: 'slope'

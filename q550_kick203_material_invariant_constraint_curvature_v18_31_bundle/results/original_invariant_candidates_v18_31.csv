@@ -1,0 +1,2 @@
+degree,rank_index,singular_ratio,train_relative_derivative,holdout_relative_derivative,train_derivative_rms,holdout_derivative_rms,cross_phase_and_posture_holdout,candidate_passes_transverse,independent_trajectory_drift_max,transverse_candidate_spread,drift_relative_to_spread,status
+2,64,4.262112716977547e-07,1.1569214867279843e-06,6.088373433637894e-05,6.200581386520896e-07,3.2717920188858866e-05,True,False,,,,REJECTED_TRANSVERSE

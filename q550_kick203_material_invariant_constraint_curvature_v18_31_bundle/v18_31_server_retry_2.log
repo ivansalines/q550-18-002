@@ -1,0 +1,30 @@
+test_constant_is_excluded (test_material_invariant_v18_31.MathTests.test_constant_is_excluded) ... ok
+test_curved_first_integral_constraint (test_material_invariant_v18_31.MathTests.test_curved_first_integral_constraint) ... ok
+test_finite_anchored_derivative (test_material_invariant_v18_31.MathTests.test_finite_anchored_derivative) ... ok
+test_hessian_derivative (test_material_invariant_v18_31.MathTests.test_hessian_derivative) ... ok
+test_hessian_second_order_geometric_jet (test_material_invariant_v18_31.MathTests.test_hessian_second_order_geometric_jet) ... ok
+test_known_linear_first_integral (test_material_invariant_v18_31.MathTests.test_known_linear_first_integral) ... ok
+test_linear_derivative (test_material_invariant_v18_31.MathTests.test_linear_derivative) ... ok
+test_numpy_bool_and_scalar_json_serialization (test_material_invariant_v18_31.MathTests.test_numpy_bool_and_scalar_json_serialization) ... ok
+test_partial_recovery_missing_files_fails_closed (test_material_invariant_v18_31.MathTests.test_partial_recovery_missing_files_fails_closed) ... ok
+test_quadratic_derivative (test_material_invariant_v18_31.MathTests.test_quadratic_derivative) ... ok
+test_reject_generic_vector_field (test_material_invariant_v18_31.MathTests.test_reject_generic_vector_field) ... ok
+test_tight_checkpoint_selection (test_material_invariant_v18_31.MathTests.test_tight_checkpoint_selection) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.056s
+
+OK
+{
+  "version": "v18.31",
+  "status": "AUTHENTICATED_V18_30_ONLY_NO_NEW_Q550_RUN",
+  "parent_SHA256": "462c45a0f807ec08c25a1cf6ab25a2d01146b6e5a64caab59b8c70940e8ab0e8",
+  "parent_verified_members": 60,
+  "source_model_parent_status": "ORIGINAL_Q550_INDEPENDENT_RHS_HESSIAN_DIAGNOSTIC_COMPLETED",
+  "material_invariant_status": "NOT_DISCOVERED_IN_PREFLIGHT",
+  "no_new_original_integrations": true
+}
+v18.31.2: recovering original completed work after JSON serialization error
+V18_31_2_RECOVERED 1 original flows from stored results; 1 anchor replay; candidates 1 survivors 0
+v18.31 SHA256 entries 67
+SEND_BACK /root/elab1/hysteresis/q550_kick203_material_invariant_constraint_curvature_v18_31_sendback.zip

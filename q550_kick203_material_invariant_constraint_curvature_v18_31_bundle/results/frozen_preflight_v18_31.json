@@ -1,0 +1,9 @@
+{
+  "version": "v18.31",
+  "status": "AUTHENTICATED_V18_30_ONLY_NO_NEW_Q550_RUN",
+  "parent_SHA256": "462c45a0f807ec08c25a1cf6ab25a2d01146b6e5a64caab59b8c70940e8ab0e8",
+  "parent_verified_members": 60,
+  "source_model_parent_status": "ORIGINAL_Q550_INDEPENDENT_RHS_HESSIAN_DIAGNOSTIC_COMPLETED",
+  "material_invariant_status": "NOT_DISCOVERED_IN_PREFLIGHT",
+  "no_new_original_integrations": true
+}

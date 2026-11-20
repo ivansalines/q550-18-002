@@ -1,0 +1,160 @@
+{
+  "version": "v18.29",
+  "status": "ORIGINAL_Q550_COMPENSATED_PAIR_SECOND_VARIATIONAL_CONVERGENCE_COMPLETED",
+  "original_source_SHA256_verified": true,
+  "parent_sha256": "37d730f0632888a60e189d948cb2abb304878cc13dee1d8cfa690eb9c5754356",
+  "verified_parent_members": 50,
+  "original_integrations": 34,
+  "case_count": 2,
+  "epsilon_values": [
+    1e-05,
+    3e-06,
+    1e-06
+  ],
+  "pair_comparisons": 6,
+  "solver_tiers": {
+    "standard": {
+      "rtol": 5e-11,
+      "atol": 5e-12,
+      "max_step": 0.035
+    },
+    "tight": {
+      "rtol": 3e-13,
+      "atol": 3e-14,
+      "max_step": 0.0125
+    }
+  },
+  "jacobian_line_quadrature_order": 3,
+  "independent_variational_jacobian_steps": [
+    0.01,
+    0.04
+  ],
+  "source_calculation": "PINNED_ORIGINAL_ANALYTIC_JACOBIAN_DIRECTIONAL_DERIVATIVE",
+  "pair_calculation": "INTEGRATED_JACOBIAN_LINE_INCREMENTS_FROM_ORIGINAL_Q550",
+  "conventional_independent_pair_archive": "ORIGINAL_Q550_V18_28_SERVER",
+  "comparisons": [
+    {
+      "observer": "raw6",
+      "anchor": 4.5,
+      "epsilon": 1e-05,
+      "compensation_even_rms": 4.6488500465591813e-07,
+      "second_variational_even_rms": 4.6488500151734713e-07,
+      "compensated_vs_second_variational_rms": 4.1698036072713555e-15,
+      "compensated_vs_second_variational_relative": 8.969537829057623e-09,
+      "uncompensated_v18_28_even_rms": 4.7068733317233505e-07,
+      "uncompensated_v18_28_vs_variation_rms": 3.5763763804898196e-08,
+      "compensated_tier_difference_rms": 7.449646116733527e-15,
+      "odd_tight_vs_tangent_rms": 3.927591057663737e-12,
+      "odd_tier_difference_rms": 6.073174265167167e-13,
+      "second_variation_h_difference_rms": 3.8098740333963296e-13,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    },
+    {
+      "observer": "raw6",
+      "anchor": 4.5,
+      "epsilon": 3e-06,
+      "compensation_even_rms": 1.3946549986676428e-07,
+      "second_variational_even_rms": 1.394655004552041e-07,
+      "compensated_vs_second_variational_rms": 2.4864652984223788e-15,
+      "compensated_vs_second_variational_relative": 1.7828533151974913e-08,
+      "uncompensated_v18_28_even_rms": NaN,
+      "uncompensated_v18_28_vs_variation_rms": NaN,
+      "compensated_tier_difference_rms": 9.793057284980564e-15,
+      "odd_tight_vs_tangent_rms": 3.7903305214469156e-13,
+      "odd_tier_difference_rms": 6.096759212484763e-13,
+      "second_variation_h_difference_rms": 1.1429622100188988e-13,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    },
+    {
+      "observer": "raw6",
+      "anchor": 4.5,
+      "epsilon": 1e-06,
+      "compensation_even_rms": 4.648850347336165e-08,
+      "second_variational_even_rms": 4.648850015173471e-08,
+      "compensated_vs_second_variational_rms": 5.891184589558033e-15,
+      "compensated_vs_second_variational_relative": 1.2672348151327064e-07,
+      "uncompensated_v18_28_even_rms": 8.4698655689408e-07,
+      "uncompensated_v18_28_vs_variation_rms": 8.398409951582403e-07,
+      "compensated_tier_difference_rms": 1.9792045149436018e-14,
+      "odd_tight_vs_tangent_rms": 7.930912497270937e-14,
+      "odd_tier_difference_rms": 6.086748266826223e-13,
+      "second_variation_h_difference_rms": 3.809874033396329e-14,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    },
+    {
+      "observer": "material3",
+      "anchor": 3.5,
+      "epsilon": 1e-05,
+      "compensation_even_rms": 9.291828084505565e-08,
+      "second_variational_even_rms": 9.291827925044208e-08,
+      "compensated_vs_second_variational_rms": 5.770198872241167e-15,
+      "compensated_vs_second_variational_relative": 6.209971728693753e-08,
+      "uncompensated_v18_28_even_rms": 1.1513491855491803e-07,
+      "uncompensated_v18_28_vs_variation_rms": 5.701243382549694e-08,
+      "compensated_tier_difference_rms": 1.4939635746286442e-14,
+      "odd_tight_vs_tangent_rms": 3.919133297569776e-13,
+      "odd_tier_difference_rms": 8.676733112740954e-13,
+      "second_variation_h_difference_rms": 8.077471956239129e-14,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    },
+    {
+      "observer": "material3",
+      "anchor": 3.5,
+      "epsilon": 3e-06,
+      "compensation_even_rms": 2.7875489936050303e-08,
+      "second_variational_even_rms": 2.787548377513262e-08,
+      "compensated_vs_second_variational_rms": 1.132460486114559e-14,
+      "compensated_vs_second_variational_relative": 4.0625680086844385e-07,
+      "uncompensated_v18_28_even_rms": NaN,
+      "uncompensated_v18_28_vs_variation_rms": NaN,
+      "compensated_tier_difference_rms": 3.423711307350931e-14,
+      "odd_tight_vs_tangent_rms": 1.9854155792519518e-13,
+      "odd_tier_difference_rms": 8.501616159979712e-13,
+      "second_variation_h_difference_rms": 2.4232415868717385e-14,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    },
+    {
+      "observer": "material3",
+      "anchor": 3.5,
+      "epsilon": 1e-06,
+      "compensation_even_rms": 9.291826782443443e-09,
+      "second_variational_even_rms": 9.291827925044206e-09,
+      "compensated_vs_second_variational_rms": 4.9147882572381395e-15,
+      "compensated_vs_second_variational_relative": 5.289366416258465e-07,
+      "uncompensated_v18_28_even_rms": 1.028236091569652e-06,
+      "uncompensated_v18_28_vs_variation_rms": 1.025611730844744e-06,
+      "compensated_tier_difference_rms": 7.131248045459917e-15,
+      "odd_tight_vs_tangent_rms": 1.9567646391774257e-13,
+      "odd_tier_difference_rms": 8.603021231748427e-13,
+      "second_variation_h_difference_rms": 8.077471956239127e-15,
+      "common_clock_phase_increment": 0.0,
+      "valid_off_constraint_diagnostic": true
+    }
+  ],
+  "anchor_jacobian_checks": [
+    {
+      "observer": "raw6",
+      "anchor": 4.5,
+      "directional_J_residual_3e4": 4.8650530579095355e-08,
+      "directional_J_residual_1e3": 5.405175923581855e-07,
+      "second_variation_source_gap": 1.607959590914072e-08,
+      "second_variation_propagated_w_disagreement": 7.619748066792658e-08
+    },
+    {
+      "observer": "material3",
+      "anchor": 3.5,
+      "directional_J_residual_3e4": 5.612062852921377e-09,
+      "directional_J_residual_1e3": 6.173928606527733e-08,
+      "second_variation_source_gap": 3.559849048428652e-08,
+      "second_variation_propagated_w_disagreement": 1.6154943912478256e-08
+    }
+  ],
+  "status_notes": "Empirical convergence only. Neither analytic derivative of J nor interval enclosure certified.",
+  "constraints": "OFF_CONSTRAINT_DIAGNOSTIC_NO_PRIVILEGED_MATERIAL_METRIC",
+  "legacy_pair_response_not_used_in_compensated_integration": true
+}

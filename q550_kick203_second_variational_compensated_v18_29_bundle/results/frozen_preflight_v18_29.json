@@ -1,0 +1,11 @@
+{
+  "version": "v18.29",
+  "status": "VERIFIED_AUTHENTIC_PARENT_AND_SYNTHETIC_PREFLIGHT_ONLY",
+  "parent_proof": "ORIGINAL_Q550_SECOND_VARIATIONAL_SOURCE_AND_NONLINEAR_PAIR_AUDIT_COMPLETED",
+  "parent_sha256": "37d730f0632888a60e189d948cb2abb304878cc13dee1d8cfa690eb9c5754356",
+  "parent_manifest_members_verified": 50,
+  "parent_original_ode_integrations": 67,
+  "parent_raw6_xi4p5_e1e5_even_rms": 4.7068733317233505e-07,
+  "parent_raw6_xi4p5_e1e5_second_variational_predicted_rms": 4.648849977913204e-07,
+  "no_new_original_Q550_ODE_integrations": true
+}

@@ -1,0 +1,12 @@
+{
+  "version": "v18.28",
+  "status": "AUTHENTICATED_PARENT_PREFLIGHT_ONLY",
+  "parent_sha256": "685778a8ccf2343d0f5df85afb20c9aac43afd2ce56dd5417354790ff0d4c625",
+  "source_proof": "ORIGINAL_Q550_HIGH_PRECISION_NUMERICAL_FLOOR_SCAN_COMPLETED",
+  "parent_floor_rows": 45,
+  "selected_parent_rows": 20,
+  "selected_median_ratio": 1.0613213341678234,
+  "sample_source_only": true,
+  "new_original_ode_integrations": 0,
+  "not_a_convergence_or_hysteresis_certificate": true
+}

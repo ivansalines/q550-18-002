@@ -1,0 +1,65 @@
+{
+  "version": "v18.28",
+  "status": "ORIGINAL_Q550_SECOND_VARIATIONAL_SOURCE_AND_NONLINEAR_PAIR_AUDIT_COMPLETED",
+  "source_verified_against_pin": true,
+  "parent_verified_sha256": "685778a8ccf2343d0f5df85afb20c9aac43afd2ce56dd5417354790ff0d4c625",
+  "new_original_ode_integrations": 67,
+  "number_of_cases": 4,
+  "epsilon_pairs": 8,
+  "hessian_steps": [
+    0.005,
+    0.02,
+    0.08
+  ],
+  "variational_prediction_uses_middle_step": true,
+  "first_directional_step": 0.004,
+  "hessian_stencil_order": 4,
+  "rtol": 3e-13,
+  "atol": 3e-14,
+  "max_step": 0.0125,
+  "cases": [
+    {
+      "observer": "material3",
+      "anchor": 3.5,
+      "u_norm": 1.0,
+      "baseline_consistency_rms": 6.243430512419307e-11,
+      "source_gap_rms": 9.500116262847025e-10,
+      "max_relative_state_displacement_smallest_step": 167.60949879924377,
+      "max_relative_state_displacement_largest_step": 2681.7519807879003
+    },
+    {
+      "observer": "material3",
+      "anchor": 4.5,
+      "u_norm": 1.0,
+      "baseline_consistency_rms": 5.312017979769577e-11,
+      "source_gap_rms": 4.256628494139989e-09,
+      "max_relative_state_displacement_smallest_step": 489.6477521379973,
+      "max_relative_state_displacement_largest_step": 7834.364034207957
+    },
+    {
+      "observer": "raw4",
+      "anchor": 4.0,
+      "u_norm": 1.0,
+      "baseline_consistency_rms": 3.2443613285304065e-11,
+      "source_gap_rms": 3.686287407914437e-13,
+      "max_relative_state_displacement_smallest_step": 158.63897831126278,
+      "max_relative_state_displacement_largest_step": 2538.2236529802044
+    },
+    {
+      "observer": "raw6",
+      "anchor": 4.5,
+      "u_norm": 1.0,
+      "baseline_consistency_rms": 9.79093865920665e-11,
+      "source_gap_rms": 1.54596575552006e-07,
+      "max_relative_state_displacement_smallest_step": 159.4649921248006,
+      "max_relative_state_displacement_largest_step": 2551.4398739968096
+    }
+  ],
+  "sample_count_per_case": 20,
+  "phase_common_within_pair": true,
+  "signed_quadratic_predicted_by_independently_integrated_variational_equation": true,
+  "finite_difference_hessian_is_numeric_not_analytic": true,
+  "cross_stencil_differences_are_not_rigorous_error_bounds": true,
+  "all_diagnostics_off_constraint": true,
+  "no_independent_material_metric_claim": true
+}

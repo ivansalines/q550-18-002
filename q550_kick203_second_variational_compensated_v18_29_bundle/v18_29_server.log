@@ -1,0 +1,35 @@
+test_compensated_integrates_true_futures (test_compensated_v18_29.TestCompensated.test_compensated_integrates_true_futures) ... ok
+test_direct_jac_second (test_compensated_v18_29.TestCompensated.test_direct_jac_second) ... ok
+test_even_odd_normalization (test_compensated_v18_29.TestCompensated.test_even_odd_normalization) ... ok
+test_exact_line_quadrature_polynomial (test_compensated_v18_29.TestCompensated.test_exact_line_quadrature_polynomial) ... ok
+test_gauge_invariant_observable (test_compensated_v18_29.TestCompensated.test_gauge_invariant_observable) ... ok
+test_identical_clock_jacobian_integral (test_compensated_v18_29.TestCompensated.test_identical_clock_jacobian_integral) ... ok
+test_perturbed_phase_exact (test_compensated_v18_29.TestCompensated.test_perturbed_phase_exact) ... ok
+test_prevent_big_state_even_cancellation (test_compensated_v18_29.TestCompensated.test_prevent_big_state_even_cancellation) ... ok
+test_small_eps_second_variation_finite_pair (test_compensated_v18_29.TestCompensated.test_small_eps_second_variation_finite_pair) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.136s
+
+OK
+{
+  "version": "v18.29",
+  "status": "VERIFIED_AUTHENTIC_PARENT_AND_SYNTHETIC_PREFLIGHT_ONLY",
+  "parent_proof": "ORIGINAL_Q550_SECOND_VARIATIONAL_SOURCE_AND_NONLINEAR_PAIR_AUDIT_COMPLETED",
+  "parent_sha256": "37d730f0632888a60e189d948cb2abb304878cc13dee1d8cfa690eb9c5754356",
+  "parent_manifest_members_verified": 50,
+  "parent_original_ode_integrations": 67,
+  "parent_raw6_xi4p5_e1e5_even_rms": 4.7068733317233505e-07,
+  "parent_raw6_xi4p5_e1e5_second_variational_predicted_rms": 4.648849977913204e-07,
+  "no_new_original_Q550_ODE_integrations": true
+}
+COMP raw6 xi 4.5 eps 1e-05 new-even 4.648850e-07 predict 4.648850e-07 resid 4.169804e-15 tier 7.449646e-15
+COMP raw6 xi 4.5 eps 3e-06 new-even 1.394655e-07 predict 1.394655e-07 resid 2.486465e-15 tier 9.793057e-15
+COMP raw6 xi 4.5 eps 1e-06 new-even 4.648850e-08 predict 4.648850e-08 resid 5.891185e-15 tier 1.979205e-14
+COMP material3 xi 3.5 eps 1e-05 new-even 9.291828e-08 predict 9.291828e-08 resid 5.770199e-15 tier 1.493964e-14
+COMP material3 xi 3.5 eps 3e-06 new-even 2.787549e-08 predict 2.787548e-08 resid 1.132460e-14 tier 3.423711e-14
+COMP material3 xi 3.5 eps 1e-06 new-even 9.291827e-09 predict 9.291828e-09 resid 4.914788e-15 tier 7.131248e-15
+ORIGINAL_V18_29_COMPLETED 34 local integrations 6 comparisons
+CREATED original Q550 v18.29 figures
+v18.29 immutable SHA256 entries 55
+SEND_BACK /root/elab1/hysteresis/q550_kick203_second_variational_compensated_v18_29_sendback.zip

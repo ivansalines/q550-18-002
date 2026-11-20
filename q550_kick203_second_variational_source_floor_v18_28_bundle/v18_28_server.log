@@ -1,0 +1,43 @@
+test_finite_step_not_epsilon (test_second_variation_v18_28.TestSecondVariation.test_finite_step_not_epsilon) ... ok
+test_first_directional (test_second_variation_v18_28.TestSecondVariation.test_first_directional) ... ok
+test_hessian_source_changes_with_direction_not_sign (test_second_variation_v18_28.TestSecondVariation.test_hessian_source_changes_with_direction_not_sign) ... ok
+test_hessian_stencil_quadratic (test_second_variation_v18_28.TestSecondVariation.test_hessian_stencil_quadratic) ... ok
+test_linear_has_zero_hessian (test_second_variation_v18_28.TestSecondVariation.test_linear_has_zero_hessian) ... ok
+test_matched_odd_even_formula (test_second_variation_v18_28.TestSecondVariation.test_matched_odd_even_formula) ... ok
+test_second_directional (test_second_variation_v18_28.TestSecondVariation.test_second_directional) ... ok
+test_variational_consistency_against_actual_pairs (test_second_variation_v18_28.TestSecondVariation.test_variational_consistency_against_actual_pairs) ... ok
+test_variational_state_phase_shared (test_second_variation_v18_28.TestSecondVariation.test_variational_state_phase_shared) ... ok
+test_zero_tangent_exactly_zero (test_second_variation_v18_28.TestSecondVariation.test_zero_tangent_exactly_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.023s
+
+OK
+{
+  "version": "v18.28",
+  "status": "AUTHENTICATED_PARENT_PREFLIGHT_ONLY",
+  "parent_sha256": "685778a8ccf2343d0f5df85afb20c9aac43afd2ce56dd5417354790ff0d4c625",
+  "source_proof": "ORIGINAL_Q550_HIGH_PRECISION_NUMERICAL_FLOOR_SCAN_COMPLETED",
+  "parent_floor_rows": 45,
+  "selected_parent_rows": 20,
+  "selected_median_ratio": 1.0613213341678234,
+  "sample_source_only": true,
+  "new_original_ode_integrations": 0,
+  "not_a_convergence_or_hysteresis_certificate": true
+}
+SOURCE material3 xi 3.5 Hessian-gap 9.500e-10 w-gap 8.670e-08
+PAIR material3 xi 3.5 eps 1e-05 measured-even 1.151e-07 predicted-even 9.292e-08 stencil-floor 4.335e-13
+PAIR material3 xi 3.5 eps 1e-06 measured-even 1.028e-06 predicted-even 9.292e-09 stencil-floor 4.335e-14
+SOURCE material3 xi 4.5 Hessian-gap 4.257e-09 w-gap 6.180e-08
+PAIR material3 xi 4.5 eps 1e-05 measured-even 1.519e-07 predicted-even 1.585e-07 stencil-floor 3.090e-13
+PAIR material3 xi 4.5 eps 1e-06 measured-even 1.423e-06 predicted-even 1.585e-08 stencil-floor 3.090e-14
+SOURCE raw4 xi 4.0 Hessian-gap 3.686e-13 w-gap 4.352e-08
+PAIR raw4 xi 4.0 eps 1e-05 measured-even 9.607e-08 predicted-even 6.611e-08 stencil-floor 2.176e-13
+PAIR raw4 xi 4.0 eps 1e-06 measured-even 9.950e-07 predicted-even 6.611e-09 stencil-floor 2.176e-14
+SOURCE raw6 xi 4.5 Hessian-gap 1.546e-07 w-gap 4.090e-07
+PAIR raw6 xi 4.5 eps 1e-05 measured-even 4.707e-07 predicted-even 4.649e-07 stencil-floor 2.045e-12
+PAIR raw6 xi 4.5 eps 1e-06 measured-even 8.470e-07 predicted-even 4.649e-08 stencil-floor 2.045e-13
+ORIGINAL_SECOND_VARIATIONAL_V18_28_COMPLETED 67 ODE integrations, 8 pair comparisons
+v18.28 genuine server plots saved
+v18.28 SHA256 immutable entries 50
+SEND_BACK /root/elab1/hysteresis/q550_kick203_second_variational_source_floor_v18_28_sendback.zip

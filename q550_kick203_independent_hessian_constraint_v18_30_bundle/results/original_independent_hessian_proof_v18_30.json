@@ -1,0 +1,30 @@
+{
+  "version": "v18.30",
+  "status": "ORIGINAL_Q550_INDEPENDENT_RHS_HESSIAN_DIAGNOSTIC_COMPLETED",
+  "parent_sha256": "ddbbd0d95204ef96df93f31b218f0a10c2a381eec78c5a8ad2e60ef1535be499",
+  "parent_manifest_verified": 55,
+  "original_ODE_input_SHA256_verified": true,
+  "original_ode_integrations": 10,
+  "case_count": 2,
+  "case_summary_rows": 4,
+  "source_samples": 80,
+  "rhs_hessian_stencils": [
+    0.02,
+    0.08
+  ],
+  "epsilon_values": [
+    1e-05,
+    1e-06
+  ],
+  "independent_source": "FIVE_POINT_FOURTH_ORDER_DIRECTIONAL_RHS_DIFFERENCE",
+  "comparison_source": "FOUR_POINT_FOURTH_ORDER_DIRECTIONAL_ANALYTIC_JACOBIAN_DIFFERENCE",
+  "original_parent_second_variation_and_compensated_profiles_reused": true,
+  "phase_fiber_defect": 0.0,
+  "declared_material_invariants": null,
+  "material_constraint_status": "UNSPECIFIED_NO_MATERIAL_CURVATURE_CERTIFICATE",
+  "constrained_jet_sampled": false,
+  "user_plugin_is_not_pinned_original_model": false,
+  "constraints_not_certified_from_Q550_model": true,
+  "no_new_physical_torsion_or_memory_claim": true,
+  "comparisons_are_empirical_not_interval_bounds": true
+}

@@ -1,0 +1,10 @@
+{
+  "version": "v18.30",
+  "status": "VERIFIED_GENUINE_V18_29_LINEAGE_PREFLIGHT_ONLY",
+  "sha256": "ddbbd0d95204ef96df93f31b218f0a10c2a381eec78c5a8ad2e60ef1535be499",
+  "verified_files": 55,
+  "parent_integrations": 34,
+  "compensated_pairs": 6,
+  "no_new_original_Q550_integrations": true,
+  "constraints": "NO_MATERIAL_INVARIANTS_DECLARED; common-phase gauge only unless plugin provided"
+}

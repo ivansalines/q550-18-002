@@ -1,0 +1,33 @@
+test_constrained_flow_circle (test_independent_hessian_v18_30.TestHessian.test_constrained_flow_circle) ... ok
+test_constraint_circle_projection (test_independent_hessian_v18_30.TestHessian.test_constraint_circle_projection) ... ok
+test_direction_squared_scale (test_independent_hessian_v18_30.TestHessian.test_direction_squared_scale) ... ok
+test_jacobian_derivative_quadratic (test_independent_hessian_v18_30.TestHessian.test_jacobian_derivative_quadratic) ... ok
+test_no_inferred_material_constraint (test_independent_hessian_v18_30.TestHessian.test_no_inferred_material_constraint) ... ok
+test_phase_has_zero_second_variation_source (test_independent_hessian_v18_30.TestHessian.test_phase_has_zero_second_variation_source) ... ok
+test_rhs_5point_rejects_zero_h (test_independent_hessian_v18_30.TestHessian.test_rhs_5point_rejects_zero_h) ... ok
+test_rhs_independent_quadratic (test_independent_hessian_v18_30.TestHessian.test_rhs_independent_quadratic) ... ok
+test_second_order_constraint_retraction (test_independent_hessian_v18_30.TestHessian.test_second_order_constraint_retraction) ... ok
+test_second_variational_source (test_independent_hessian_v18_30.TestHessian.test_second_variational_source) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.160s
+
+OK
+{
+  "version": "v18.30",
+  "status": "VERIFIED_GENUINE_V18_29_LINEAGE_PREFLIGHT_ONLY",
+  "sha256": "ddbbd0d95204ef96df93f31b218f0a10c2a381eec78c5a8ad2e60ef1535be499",
+  "verified_files": 55,
+  "parent_integrations": 34,
+  "compensated_pairs": 6,
+  "no_new_original_Q550_integrations": true,
+  "constraints": "NO_MATERIAL_INVARIANTS_DECLARED; common-phase gauge only unless plugin provided"
+}
+INDEPENDENT_HESS raw6 anchor 4.5 epsilon 1e-05 new RMS 4.648849977e-07 stencil gap 2.0369e-12 archived gap 1.3295e-14
+INDEPENDENT_HESS raw6 anchor 4.5 epsilon 1e-06 new RMS 4.648849977e-08 stencil gap 2.0369e-13 archived gap 1.3295e-15
+INDEPENDENT_HESS material3 anchor 3.5 epsilon 1e-05 new RMS 9.291827865e-08 stencil gap 4.3185e-13 archived gap 1.8768e-15
+INDEPENDENT_HESS material3 anchor 3.5 epsilon 1e-06 new RMS 9.291827865e-09 stencil gap 4.3185e-14 archived gap 1.8768e-16
+ORIGINAL_V18_30_COMPLETED 10 original Q550 ODE integrations 4 summary rows
+PLOTS_ORIGINAL_V18_30_CREATED
+v18.30 SHA256 entries 60
+SEND_BACK /root/elab1/hysteresis/q550_kick203_independent_hessian_constraint_v18_30_sendback.zip

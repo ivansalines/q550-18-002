@@ -1,0 +1,186 @@
+test_constant_absolute_noise (test_amplitude_v18_26.TestVanishingAmplitude.test_constant_absolute_noise) ... ok
+test_constant_normalized_noise (test_amplitude_v18_26.TestVanishingAmplitude.test_constant_normalized_noise) ... ok
+test_covariance_and_phase_not_in_noise_model (test_amplitude_v18_26.TestVanishingAmplitude.test_covariance_and_phase_not_in_noise_model) ... ok
+test_five_distinct_amplitudes (test_amplitude_v18_26.TestVanishingAmplitude.test_five_distinct_amplitudes) ... ok
+test_noise_increases_100_fold_relative (test_amplitude_v18_26.TestVanishingAmplitude.test_noise_increases_100_fold_relative) ... ok
+test_noise_rng_reproducible (test_amplitude_v18_26.TestVanishingAmplitude.test_noise_rng_reproducible) ... ok
+test_paired_observation_has_reproducible_alignment (test_amplitude_v18_26.TestVanishingAmplitude.test_paired_observation_has_reproducible_alignment) ... ok
+test_predictor_has_no_oracle_import (test_amplitude_v18_26.TestVanishingAmplitude.test_predictor_has_no_oracle_import) ... ok
+test_rank_20_allowed_when_useful (test_amplitude_v18_26.TestVanishingAmplitude.test_rank_20_allowed_when_useful) ... ok
+test_zero_noise (test_amplitude_v18_26.TestVanishingAmplitude.test_zero_noise) ... ok
+test_blind_linear_exact (test_blind_v18_23.TestBlind.test_blind_linear_exact) ... ok
+test_features (test_blind_v18_23.TestBlind.test_features) ... ok
+test_independent_shuffle (test_blind_v18_23.TestBlind.test_independent_shuffle) ... ok
+test_noise_level_zero (test_blind_v18_23.TestBlind.test_noise_level_zero) ... ok
+test_noise_never_in_target (test_blind_v18_23.TestBlind.test_noise_never_in_target) ... ok
+test_prediction_improves_with_informative_history (test_blind_v18_23.TestBlind.test_prediction_improves_with_informative_history) ... ok
+test_predictor_not_using_hidden_ode (test_blind_v18_23.TestBlind.test_predictor_not_using_hidden_ode) ... ok
+test_ridge_selection_on_validation_only (test_blind_v18_23.TestBlind.test_ridge_selection_on_validation_only) ... ok
+test_triple_split_disjoint (test_blind_v18_23.TestBlind.test_triple_split_disjoint) ... ok
+test_latent_reconstructs_unseen_linear_futures (test_blind_v18_23.TestDelayLatent.test_latent_reconstructs_unseen_linear_futures) ... ok
+test_meaningful_validation_gain_keeps_rank_20 (test_blind_v18_23.TestLatentRankSelection.test_meaningful_validation_gain_keeps_rank_20) ... ok
+test_rank_scan_never_uses_test_for_selection (test_blind_v18_23.TestLatentRankSelection.test_rank_scan_never_uses_test_for_selection) ... ok
+test_roundoff_tie_chooses_smallest_rank (test_blind_v18_23.TestLatentRankSelection.test_roundoff_tie_chooses_smallest_rank) ... ok
+test_all_anchor_windows_distinct_and_exact (test_new_sampling_v18_24.TestNewNonlinearGrid.test_all_anchor_windows_distinct_and_exact) ... ok
+test_generator_linear_tracer_phase_and_times (test_new_sampling_v18_24.TestNewNonlinearGrid.test_generator_linear_tracer_phase_and_times) ... ok
+test_shifted_test_not_used_for_fit (test_new_sampling_v18_24.TestNewNonlinearGrid.test_shifted_test_not_used_for_fit) ... ok
+test_all_modes_preserve_endpoint (test_robust_v18_24.TestEndpoint.test_all_modes_preserve_endpoint) ... ok
+test_anchors (test_robust_v18_24.TestEndpoint.test_anchors) ... ok
+test_blind_math_has_no_model_operator (test_robust_v18_24.TestEndpoint.test_blind_math_has_no_model_operator) ... ok
+test_endpoint_bit_for_bit (test_robust_v18_24.TestEndpoint.test_endpoint_bit_for_bit) ... ok
+test_global_reverse_invariance_to_ridge (test_robust_v18_24.TestEndpoint.test_global_reverse_invariance_to_ridge) ... ok
+test_latent_rank10_vs20 (test_robust_v18_24.TestEndpoint.test_latent_rank10_vs20) ... ok
+test_noise_not_applied_to_future (test_robust_v18_24.TestEndpoint.test_noise_not_applied_to_future) ... ok
+test_rank_selection_uses_only_val (test_robust_v18_24.TestEndpoint.test_rank_selection_uses_only_val) ... ok
+test_scramble_destroys_timing (test_robust_v18_24.TestEndpoint.test_scramble_destroys_timing) ... ok
+test_scramble_keeps_past_multiset (test_robust_v18_24.TestEndpoint.test_scramble_keeps_past_multiset) ... ok
+test_shared_permutation_is_global_only (test_robust_v18_24.TestEndpoint.test_shared_permutation_is_global_only) ... ok
+test_exact_past_future_grid_and_phase (test_sampling_v18_23.TestNonlinearSampling.test_exact_past_future_grid_and_phase) ... ok
+test_affine_recovers_shear (test_transport_v18_25.Transport.test_affine_recovers_shear) ... ok
+test_equal_present_under_shift_even_with_noise (test_transport_v18_25.Transport.test_equal_present_under_shift_even_with_noise) ... ok
+test_invalid_shape (test_transport_v18_25.Transport.test_invalid_shape) ... ok
+test_lag_and_calibration_do_not_consume_future (test_transport_v18_25.Transport.test_lag_and_calibration_do_not_consume_future) ... ok
+test_latent_gauge_equivariance (test_transport_v18_25.Transport.test_latent_gauge_equivariance) ... ok
+test_orthogonal_map_recovers_rotation (test_transport_v18_25.Transport.test_orthogonal_map_recovers_rotation) ... ok
+test_past_endpoint_exact (test_transport_v18_25.Transport.test_past_endpoint_exact) ... ok
+test_rank20_not_forced_to_10 (test_transport_v18_25.Transport.test_rank20_not_forced_to_10) ... ok
+test_rank_predictor_independent_of_shifted_labels (test_transport_v18_25.Transport.test_rank_predictor_independent_of_shifted_labels) ... ok
+test_temporal_sections (test_transport_v18_25.Transport.test_temporal_sections) ... ok
+test_test_labels_not_in_alignment_functions (test_transport_v18_25.Transport.test_test_labels_not_in_alignment_functions) ... ok
+test_wrong_pair_not_equivalent (test_transport_v18_25.Transport.test_wrong_pair_not_equivalent) ... ok
+test_zero_lag_exact (test_transport_v18_25.Transport.test_zero_lag_exact) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.513s
+
+OK
+frozen material3 eps 1e-05 noise none rank selection 10
+frozen material3 eps 1e-05 noise fixed_normalized rank selection 15
+frozen material3 eps 1e-05 noise fixed_absolute rank selection 12
+frozen material3 eps 3e-06 noise none rank selection 10
+frozen material3 eps 3e-06 noise fixed_normalized rank selection 15
+frozen material3 eps 3e-06 noise fixed_absolute rank selection 12
+frozen material3 eps 1e-06 noise none rank selection 10
+frozen material3 eps 1e-06 noise fixed_normalized rank selection 15
+frozen material3 eps 1e-06 noise fixed_absolute rank selection 20
+frozen material3 eps 3e-07 noise none rank selection 10
+frozen material3 eps 3e-07 noise fixed_normalized rank selection 15
+frozen material3 eps 3e-07 noise fixed_absolute rank selection 12
+frozen material3 eps 1e-07 noise none rank selection 10
+frozen material3 eps 1e-07 noise fixed_normalized rank selection 15
+frozen material3 eps 1e-07 noise fixed_absolute rank selection 8
+frozen raw4 eps 1e-05 noise none rank selection 10
+frozen raw4 eps 1e-05 noise fixed_normalized rank selection 20
+frozen raw4 eps 1e-05 noise fixed_absolute rank selection 15
+frozen raw4 eps 3e-06 noise none rank selection 10
+frozen raw4 eps 3e-06 noise fixed_normalized rank selection 20
+frozen raw4 eps 3e-06 noise fixed_absolute rank selection 20
+frozen raw4 eps 1e-06 noise none rank selection 10
+frozen raw4 eps 1e-06 noise fixed_normalized rank selection 20
+frozen raw4 eps 1e-06 noise fixed_absolute rank selection 20
+frozen raw4 eps 3e-07 noise none rank selection 10
+frozen raw4 eps 3e-07 noise fixed_normalized rank selection 20
+frozen raw4 eps 3e-07 noise fixed_absolute rank selection 15
+frozen raw4 eps 1e-07 noise none rank selection 10
+frozen raw4 eps 1e-07 noise fixed_normalized rank selection 20
+frozen raw4 eps 1e-07 noise fixed_absolute rank selection 20
+frozen raw6 eps 1e-05 noise none rank selection 10
+frozen raw6 eps 1e-05 noise fixed_normalized rank selection 10
+frozen raw6 eps 1e-05 noise fixed_absolute rank selection 10
+frozen raw6 eps 3e-06 noise none rank selection 10
+frozen raw6 eps 3e-06 noise fixed_normalized rank selection 10
+frozen raw6 eps 3e-06 noise fixed_absolute rank selection 20
+frozen raw6 eps 1e-06 noise none rank selection 10
+frozen raw6 eps 1e-06 noise fixed_normalized rank selection 10
+frozen raw6 eps 1e-06 noise fixed_absolute rank selection 20
+frozen raw6 eps 3e-07 noise none rank selection 10
+frozen raw6 eps 3e-07 noise fixed_normalized rank selection 10
+frozen raw6 eps 3e-07 noise fixed_absolute rank selection 10
+frozen raw6 eps 1e-07 noise none rank selection 10
+frozen raw6 eps 1e-07 noise fixed_normalized rank selection 10
+frozen raw6 eps 1e-07 noise fixed_absolute rank selection 15
+FROZEN PREFLIGHT 1080 rows amplitudes (1e-05, 3e-06, 1e-06, 3e-07, 1e-07)
+Q550_v18_26 eps=1.00e-05 anchor=3.5 split=cal n=32
+Q550_v18_26 eps=1.00e-05 anchor=3.5 split=test n=36
+Q550_v18_26 eps=1.00e-05 anchor=4.0 split=train n=96
+Q550_v18_26 eps=1.00e-05 anchor=4.0 split=val n=32
+Q550_v18_26 eps=1.00e-05 anchor=4.0 split=test n=36
+Q550_v18_26 eps=1.00e-05 anchor=4.5 split=cal n=32
+Q550_v18_26 eps=1.00e-05 anchor=4.5 split=test n=36
+Q550_v18_26 eps=3.00e-06 anchor=3.5 split=cal n=32
+Q550_v18_26 eps=3.00e-06 anchor=3.5 split=test n=36
+Q550_v18_26 eps=3.00e-06 anchor=4.0 split=train n=96
+Q550_v18_26 eps=3.00e-06 anchor=4.0 split=val n=32
+Q550_v18_26 eps=3.00e-06 anchor=4.0 split=test n=36
+Q550_v18_26 eps=3.00e-06 anchor=4.5 split=cal n=32
+Q550_v18_26 eps=3.00e-06 anchor=4.5 split=test n=36
+Q550_v18_26 eps=1.00e-06 anchor=3.5 split=cal n=32
+Q550_v18_26 eps=1.00e-06 anchor=3.5 split=test n=36
+Q550_v18_26 eps=1.00e-06 anchor=4.0 split=train n=96
+Q550_v18_26 eps=1.00e-06 anchor=4.0 split=val n=32
+Q550_v18_26 eps=1.00e-06 anchor=4.0 split=test n=36
+Q550_v18_26 eps=1.00e-06 anchor=4.5 split=cal n=32
+Q550_v18_26 eps=1.00e-06 anchor=4.5 split=test n=36
+Q550_v18_26 eps=3.00e-07 anchor=3.5 split=cal n=32
+Q550_v18_26 eps=3.00e-07 anchor=3.5 split=test n=36
+Q550_v18_26 eps=3.00e-07 anchor=4.0 split=train n=96
+Q550_v18_26 eps=3.00e-07 anchor=4.0 split=val n=32
+Q550_v18_26 eps=3.00e-07 anchor=4.0 split=test n=36
+Q550_v18_26 eps=3.00e-07 anchor=4.5 split=cal n=32
+Q550_v18_26 eps=3.00e-07 anchor=4.5 split=test n=36
+Q550_v18_26 eps=1.00e-07 anchor=3.5 split=cal n=32
+Q550_v18_26 eps=1.00e-07 anchor=3.5 split=test n=36
+Q550_v18_26 eps=1.00e-07 anchor=4.0 split=train n=96
+Q550_v18_26 eps=1.00e-07 anchor=4.0 split=val n=32
+Q550_v18_26 eps=1.00e-07 anchor=4.0 split=test n=36
+Q550_v18_26 eps=1.00e-07 anchor=4.5 split=cal n=32
+Q550_v18_26 eps=1.00e-07 anchor=4.5 split=test n=36
+original material3 eps 1e-05 noise none rank selection 20
+original material3 eps 1e-05 noise fixed_normalized rank selection 15
+original material3 eps 1e-05 noise fixed_absolute rank selection 12
+original material3 eps 3e-06 noise none rank selection 20
+original material3 eps 3e-06 noise fixed_normalized rank selection 15
+original material3 eps 3e-06 noise fixed_absolute rank selection 12
+original material3 eps 1e-06 noise none rank selection 15
+original material3 eps 1e-06 noise fixed_normalized rank selection 15
+original material3 eps 1e-06 noise fixed_absolute rank selection 20
+original material3 eps 3e-07 noise none rank selection 20
+original material3 eps 3e-07 noise fixed_normalized rank selection 15
+original material3 eps 3e-07 noise fixed_absolute rank selection 12
+original material3 eps 1e-07 noise none rank selection 20
+original material3 eps 1e-07 noise fixed_normalized rank selection 15
+original material3 eps 1e-07 noise fixed_absolute rank selection 8
+original raw4 eps 1e-05 noise none rank selection 20
+original raw4 eps 1e-05 noise fixed_normalized rank selection 20
+original raw4 eps 1e-05 noise fixed_absolute rank selection 15
+original raw4 eps 3e-06 noise none rank selection 12
+original raw4 eps 3e-06 noise fixed_normalized rank selection 20
+original raw4 eps 3e-06 noise fixed_absolute rank selection 20
+original raw4 eps 1e-06 noise none rank selection 10
+original raw4 eps 1e-06 noise fixed_normalized rank selection 20
+original raw4 eps 1e-06 noise fixed_absolute rank selection 20
+original raw4 eps 3e-07 noise none rank selection 20
+original raw4 eps 3e-07 noise fixed_normalized rank selection 15
+original raw4 eps 3e-07 noise fixed_absolute rank selection 15
+original raw4 eps 1e-07 noise none rank selection 15
+original raw4 eps 1e-07 noise fixed_normalized rank selection 20
+original raw4 eps 1e-07 noise fixed_absolute rank selection 20
+original raw6 eps 1e-05 noise none rank selection 20
+original raw6 eps 1e-05 noise fixed_normalized rank selection 10
+original raw6 eps 1e-05 noise fixed_absolute rank selection 10
+original raw6 eps 3e-06 noise none rank selection 20
+original raw6 eps 3e-06 noise fixed_normalized rank selection 10
+original raw6 eps 3e-06 noise fixed_absolute rank selection 20
+original raw6 eps 1e-06 noise none rank selection 15
+original raw6 eps 1e-06 noise fixed_normalized rank selection 10
+original raw6 eps 1e-06 noise fixed_absolute rank selection 20
+original raw6 eps 3e-07 noise none rank selection 15
+original raw6 eps 3e-07 noise fixed_normalized rank selection 10
+original raw6 eps 3e-07 noise fixed_absolute rank selection 10
+original raw6 eps 1e-07 noise none rank selection 12
+original raw6 eps 1e-07 noise fixed_normalized rank selection 10
+original raw6 eps 1e-07 noise fixed_absolute rank selection 15
+ORIGINAL_Q550_v18_26_DONE 1596 independent integrations 1080 prediction rows
+PLOTS_COMPLETE original
+SHA256 70 immutable files
+SEND_BACK /root/elab1/hysteresis/q550_kick203_vanishing_amplitude_latent_transport_v18_26_sendback.zip

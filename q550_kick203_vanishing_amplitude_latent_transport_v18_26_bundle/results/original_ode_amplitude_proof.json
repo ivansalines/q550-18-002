@@ -1,0 +1,44 @@
+{
+  "status": "ORIGINAL_Q550_NONLINEAR_VANISHING_AMPLITUDE_SCAN_COMPLETED",
+  "source_pinned": {
+    "audit": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_mobius_monodromy_audit.py",
+      "sha256": "90792fc9ad144333df521c7c0862193125c4702319fc3aa1a2bcef45491b2864"
+    },
+    "support": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_support_ode_interval_residual_pilot_v1.py",
+      "sha256": "5b5938e7920b2ecd242fb8f416a18c7c47ae10aa06e027e0727f15e284c98c61"
+    },
+    "tube": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/test_support_q550_exact_nonlinear_local_tube_v2_1.py",
+      "sha256": "a9d1ec342c268da8e721dc641cab8cc4cf39f69d821dfd4191163833ba04e881"
+    },
+    "orbit": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/q_550_orbit.npz",
+      "sha256": "537f6326b841f36f963be3736b1034724041994a07f9ac9e5377de6c99048f34"
+    },
+    "events": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/inputs/presence_metrology_events.csv",
+      "sha256": "bc18df957b9dc311978584132b9cf0690e30a9576a306bda6f189a4ba33df892"
+    },
+    "shared": {
+      "path": "/root/elab1/hysteresis/q550_full11D_transverse_slow_state_dense_sampling_v1_bundle/support_q550_shared_generator_arc_cocycle_cell49_v1_pilot.json",
+      "sha256": "be9ad38fc157073efeb95890588ead7ff47e2a8a7e381bba1cdea3d5682567aa"
+    }
+  },
+  "parent_v18_25_sha256": "862e3955eadf1eeb550d0bdc74fc51a96a2bb35d01801b63b150ee5fcff36504",
+  "parent_v18_25_status": "ORIGINAL_Q550_NONLINEAR_PAIRED_DELAY_FRAME_TRANSPORT_COMPLETED",
+  "amplitudes": [
+    1e-05,
+    3e-06,
+    1e-06,
+    3e-07,
+    1e-07
+  ],
+  "new_original_ode_integrations": 1596,
+  "samples_per_trajectory": 20,
+  "plus_minus_probe_pairs": 45,
+  "phase_equal": true,
+  "original_ode_used_for_oracle_only": true,
+  "paired_calibration_uses_past_only": true
+}

@@ -1,0 +1,43 @@
+test_calibration_radius (test_near_surface_v18_35.Tests.test_calibration_radius) ... ok
+test_crossing_exact_root (test_near_surface_v18_35.Tests.test_crossing_exact_root) ... ok
+test_distances_include_phase_neither (test_near_surface_v18_35.Tests.test_distances_include_phase_neither) ... ok
+test_fixed_reference_drift (test_near_surface_v18_35.Tests.test_fixed_reference_drift) ... ok
+test_grid_micro_and_endpoint (test_near_surface_v18_35.Tests.test_grid_micro_and_endpoint) ... ok
+test_identity_integrated_source (test_near_surface_v18_35.Tests.test_identity_integrated_source) ... ok
+test_nearest_local_train (test_near_surface_v18_35.Tests.test_nearest_local_train) ... ok
+test_no_exit (test_near_surface_v18_35.Tests.test_no_exit) ... ok
+test_outside_at_start_is_not_exit (test_near_surface_v18_35.Tests.test_outside_at_start_is_not_exit) ... ok
+test_training_ball_initial_condition (test_near_surface_v18_35.Tests.test_training_ball_initial_condition) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.011s
+
+OK
+{
+  "version": "v18.35",
+  "status": "AUTHENTICATED_PARENT_ONLY_NO_NEW_Q550_INTEGRATION",
+  "parent_sha256": "4f58a53b72c90e04f4fb978329c5d3ecec770a0b12c75a0d9a6c791b8c6e45fa",
+  "parent_member_count": 86,
+  "original_v18_34_sample_rows": 972,
+  "initial_seed_count": 12,
+  "source_at_zero_is_not_identically_zero": true,
+  "microgrid_count": 171,
+  "no_new_original_ODE_run": true,
+  "no_physical_invariant": true
+}
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 3.5 seed 0 initial moving 2.4993 fixed/end 457.81 moving/end 947.99 defect -2.897528e-04
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 3.5 seed 1 initial moving 0.59675 fixed/end 2441.4 moving/end 2278.9 defect 1.002765e-03
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 4.0 seed 0 initial moving 1.4979 fixed/end 10412 moving/end 10099 defect 7.200582e-03
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 4.0 seed 1 initial moving 0.47682 fixed/end 7481.8 moving/end 7456.3 defect 4.731943e-03
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 4.5 seed 0 initial moving 1.4743 fixed/end 10041 moving/end 9796.6 defect 6.719305e-03
+MICRO phasecov_d2_lam-1.00_mod+0.00 anchor 4.5 seed 1 initial moving 2.3711 fixed/end 1196.5 moving/end 490.71 defect 6.579526e-04
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 3.5 seed 0 initial moving 2.4993 fixed/end 459.33 moving/end 949.56 defect 2.506890e-04
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 3.5 seed 1 initial moving 0.59675 fixed/end 2445 moving/end 2282.6 defect -3.631628e-04
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 4.0 seed 0 initial moving 1.4978 fixed/end 10405 moving/end 10091 defect 3.901723e-03
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 4.0 seed 1 initial moving 0.47677 fixed/end 7598.1 moving/end 7572.6 defect 1.178026e-03
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 4.5 seed 0 initial moving 1.4743 fixed/end 9987.9 moving/end 9743.6 defect 3.603501e-03
+MICRO phaseblind_d2_lam-1.00_mod+0.00 anchor 4.5 seed 1 initial moving 2.3713 fixed/end 862.38 moving/end 237.85 defect -3.372201e-04
+ORIGINAL_V18_35_COMPLETED 15 integrations 2052 micro samples 120 crossing diagnostics
+V18_35_PLOTS_COMPLETED
+V18_35_SHA256_ENTRIES 87
+SEND_BACK /root/elab1/hysteresis/q550_kick203_near_surface_boundary_layer_v18_35_sendback.zip
